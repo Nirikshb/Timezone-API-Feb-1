@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TimeZone API</title>
+</head>
+<body>
+     <h1>TimeZone API</h1>
+     <h2>Your Current Time Zone</h2>
+
+     <div class="box1">
+        <p id="zonal">Name of the TimeZone :</p>
+        <p id="lat">Lat : </p>
+        <p id="long">Long :</p>
+        <p id="stdd">Offset STD :</p>
+        <p id="stdsec">Offset STD Seconds :</p>
+        <p id="dst">Offest DST :</p>
+        <p id="dst-sec">Offest DST Seconds :</p>
+        <p id="country">Country :</p>
+        <p id="postcode">Postcode : </p>
+        <p id="city">City :</p> 
+     </div>
+
+     <div class="container">
+        <h1>Enter Address</h1>
+        <input type="search" id="address" placeholder="Enter Address..."><br><br>
+        <a href="./mainPage.html"><button class="button" id="btn" onclick="renderInfo()">Submit</button></a>
+       <div id="output"></div>
+      </div>
+
+<script src="script.js"></script>
+</body>
+</html>
